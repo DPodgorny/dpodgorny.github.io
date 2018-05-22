@@ -27,6 +27,7 @@ function fillModelDropDown(modelListLoad) {
             break;
 
         default:
+            newEl.hidden = 1;
             return;
 
     }
